@@ -1,0 +1,27 @@
+.user-container{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+.user-container .user-card{
+    display: flex;
+    width: 100%;
+    flex: auto;
+    flex-direction: column;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px black;
+    margin: 10px;
+    padding: 10px;
+    background: white;
+}
+
+h2{
+    font-family: BlinkMacSystemFont, serif;
+    margin: 5px;
+}
+
+span{
+    color: darkblue;
+}
