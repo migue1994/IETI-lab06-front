@@ -15,7 +15,12 @@ export default function App(){
 
   return(
       <div className="app-container">
-        <UserList users={users} />
+        {users && (
+          <UserList users={users} />
+        )}
+        {!users && (
+          <h1>Please wait a moment...</h1>
+        )}
       </div>
   )
 }
