@@ -8,7 +8,7 @@ export default function App(){
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    axios.get('http://taskplanner-backend.westcentralus.azurecontainer.io:8080/api/users')
+    axios.get('https://ieti-lab06-front.herokuapp.com/api/users')
         .then(response => response.data)
         .then(data => setUsers(data));
   }, [axios])
